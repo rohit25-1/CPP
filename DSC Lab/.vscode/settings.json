@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "LINKLL.C": "cpp",
+    "Porgram1-LINKLL.C": "cpp",
+    "DOUBLY.C": "cpp",
+    "Program3-DOUBLY.C": "cpp",
+    "STACK.C": "cpp",
+    "Program-3-DOUBLY.C": "cpp",
+    "complex": "c",
+    "cmath": "c"
+  }
+}

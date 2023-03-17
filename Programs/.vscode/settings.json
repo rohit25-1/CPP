@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "queue": "c",
+    "stack": "c",
+    "__locale": "cpp",
+    "__string": "cpp",
+    "regex": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "BST.C": "cpp",
+    "iostream": "cpp"
+  }
+}

@@ -1,0 +1,19 @@
+& (bitwise AND) - The result of AND is 1 only if both bits are 1.
+| (bitwise OR) - The result of OR is 1 if any of the two bits is 1.
+^ (bitwise XOR) - The result of XOR is 1 if the two bits are different.
+<< (left shift) - Shifts the bits to the left by the number given
+>> (right shift)- Shifts the bits to the right by the number given
+~ (bitwise NOT)- inverts the bits
+
+OR is used to make a bit as 1 
+AND is used to make a bit as 0 and to get a bit at a given position
+
+
+x & (x-1) will clear the lowest set bit of x
+x & ~(x-1) extracts the lowest set bit of x (all others are clear). Pretty patterns when applied to a linear sequence.
+x & (x + (1 << n)) = x, with the run of set bits (possibly length 0) starting at bit n cleared.
+x & ~(x + (1 << n)) = the run of set bits (possibly length 0) in x, starting at bit n.
+x | (x + 1) = x with the lowest cleared bit set.
+x | ~(x + 1) = extracts the lowest cleared bit of x (all others are set).
+x | (x - (1 << n)) = x, with the run of cleared bits (possibly length 0) starting at bit n set.
+x | ~(x - (1 << n)) = the lowest run of cleared bits (possibly length 0) in x, starting at bit n are the only clear bits.
